@@ -1,0 +1,13 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    driver-class: "org.postgresql.Driver"
+    url: "jdbc:postgresql://localhost:49156/ctool_meta"
+    username: "ctool_meta"
+    password: "ctool_meta"
+  jpa:
+    show-sql: true
+    ddl-auto: "none"
+    dialect: "org.hibernate.dialect.PostgreSQLDialect"
